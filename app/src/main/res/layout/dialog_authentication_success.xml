@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/bg_dialog_link_manager"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="认证成功"
+            android:textColor="#FF292E3A"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:text="您已成功认证人脸，如若您所在社区够近智能门禁已开通人脸识别功能。您在设备前刷脸就可打开进入。"
+            android:textColor="#FF888888"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dialog_know_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="知道了"
+            android:textColor="@color/text_color_45aef8_b4defc"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>
